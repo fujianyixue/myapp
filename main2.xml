@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:id="@+id/main2">
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:layout_width="wrap_content"
+		android:id="@+id/file_name"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="createfile"
+		android:layout_width="wrap_content"
+		android:id="@+id/createfile"
+		android:onClick="button"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="createfolde"
+		android:layout_width="wrap_content"
+		android:id="@+id/createfolde"
+		android:onClick="button"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="write"
+		android:layout_width="wrap_content"
+		android:id="@+id/write"
+		android:onClick="button"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="read"
+		android:layout_width="wrap_content"
+		android:id="@+id/read"
+		android:onClick="button"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="test"
+		android:layout_width="wrap_content"
+		android:id="@+id/test"
+		android:onClick="button"/>
+	<Button
+		android:layout_height="wrap_content"
+		android:text="test"
+		android:layout_width="wrap_content"
+		android:id="@+id/test2"
+		android:onClick="button"/>
+
+</LinearLayout>
+
